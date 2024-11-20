@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    overflow-x: hidden;
+}
+.nav {
+    height: 70px;
+    width: 100%;
+    background-image: linear-gradient(black, green);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    padding: 0 20px;
+}
+.cybersecurity {
+    color: white;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.button {
+    height: 30px;
+    padding: 0 15px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    white-space: nowrap;
+}
+.profile {
+    width: 40px;
+}
+.explore-1 {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 20px;
+    padding-top: 300px;
+    padding-left: 100px;
+    color: black;
+}
+.head h1 {
+    margin: 10px 0;
+    font-size: 40px;
+    color: white;
+}
+.explore-btn {
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    background-color: aquamarine;
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+    }
+    .buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    .button {
+        width: auto;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .cybersecurity {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .profile {
+        margin-top: 10px;
+    }
+    .explore-1 {
+        padding: 20px;
+    }
+    .head h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttons {
+        gap: 5px;
+    }
+    .button {
+        font-size: 10px;
+        padding: 0 8px;
+    }
+    .explore-1 {
+        height: auto;
+    }
+    .head h1 {
+        font-size: 1rem;
+    }
+    .explore-btn {
+        height: 35px;
+        font-size: 13px;
+    }
+}

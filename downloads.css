@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body,html{
+    overflow-x: hidden;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: linear-gradient(black, green);
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+.nav-img{
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.cybersecurity{
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.buttons{
+    display: flex;
+    padding-left: 300px;
+    padding-top: 20px;
+    gap: 10px;
+    cursor: pointer;
+
+}
+.button{
+    height: 30px;
+    width: 130px;
+    background-color: transparent;
+    border-radius: 30px;
+    /* border: none; */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile{
+    width: 40px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 100px;
