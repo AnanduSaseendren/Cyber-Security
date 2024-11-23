@@ -4,24 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What is cyber security</title>
+    <style>
+        
+        body,html{
+            overflow-y: hidden;
+        } 
+        .navbar{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+        li a {
+              display: block;
+              color: #000;
+              padding: 8px 16px;
+              text-decoration: none;
+        }
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div style="display: flex; justify-content: center; align-items: center;">
-        <h1>What is cyber security</h1>
-    </div>
-    <div style="padding-left: 100px; padding-right: 100px; font-size: 20px; padding-bottom: 200px;">
-        <p><b>Cybersecurity</b> is the practice of protecting computer systems, networks, devices, and data from unauthorized access, theft, damage, or disruption. It involves implementing measures to ensure the confidentiality, integrity, and availability of digital assets while defending against a wide range of cyber threats.</p>
-        <h2 style="display: flex; justify-content: center; align-items: center;">Key Components of Cybersecurity</h2>
-        <ol>
-            <li><b>Confidentiality:</b> Ensures that sensitive information is accessible only to authorized individuals or systems.</li>
-            <li><b>Integrity:</b> Protects data from being altered or tampered with by unauthorized parties.</li>
-            <li><b>Availability:</b> Ensures that authorized users have access to systems and data when needed.</li>
-        </ol>
-    </div>
-    <div style="display: flex; justify-content: center; gap: 10px;">
-        <a href="About Cyberspace.html"><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Previous Topic</button></a>
-        <a href="../index.html"><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Home</button></a>
-        <a href=""><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Next Topic</button></a>
+    <ul class="navbar">
+        <li><a href="About Cyberspace.html">About Cyber Space</a></li>
+        <li><a href="What is cyber security.html" class="active">What is cyber Security</a></li>
+        <li><a href="Type of cyberattacks.html">Types Of cyber Attacks</a></li>
+        <li><a href="Recently reported Attacks.html">Recently reported Attacks</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <h1>What is cyber security</h1>
+        </div>
+        <div style="padding-left: 100px; padding-right: 100px; font-size: 20px; padding-bottom: 200px;">
+            <p><b>Cybersecurity</b> is the practice of protecting computer systems, networks, devices, and data from unauthorized access, theft, damage, or disruption. It involves implementing measures to ensure the confidentiality, integrity, and availability of digital assets while defending against a wide range of cyber threats.</p>
+            <h2 style="display: flex; justify-content: center; align-items: center;">Key Components of Cybersecurity</h2>
+            <ol>
+                <li><b>Confidentiality:</b> Ensures that sensitive information is accessible only to authorized individuals or systems.</li>
+                <li><b>Integrity:</b> Protects data from being altered or tampered with by unauthorized parties.</li>
+                <li><b>Availability:</b> Ensures that authorized users have access to systems and data when needed.</li>
+            </ol>
+        </div>
+        <div style="display: flex; justify-content: center; gap: 10px;">
+            <a href="About Cyberspace.html"><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Previous Topic</button></a>
+            <a href="../index.html"><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Home</button></a>
+            <a href=""><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Next Topic</button></a>
+        </div>
     </div>
 </body>
 </html>

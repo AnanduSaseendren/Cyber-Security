@@ -5,8 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Cyberspace</title>
     <link rel="stylesheet" href="About Cyberspace.css">
+    <style>
+        /* *{
+            padding: 0;
+            margin: 0;
+        } */
+         body,html{
+            overflow-y: hidden;
+         }
+        .navbar{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+        li a {
+              display: block;
+              color: #000;
+              padding: 8px 16px;
+              text-decoration: none;
+        }
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
 </head>
 <body>
+    <ul class="navbar">
+        <li><a href="About Cyberspace.html" class="active">About Cyber Space</a></li>
+        <li><a href="What is cyber security.html">What is cyber Security</a></li>
+        <li><a href="Type of cyberattacks.html">Types Of cyber Attacks</a></li>
+        <li><a href="Recently reported Attacks.html">Recently reported Attacks</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+   <div style="margin-left:25%;padding:1px 16px;height:1000px;">
     <div style="display: flex; justify-content: center; align-items: center;">
         <h1>About Cyberspace</h1>
     </div>
@@ -23,5 +69,6 @@
         <a href="../index.html"><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Home</button></a>
         <a href="What is cyber security.html"><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Next Topic</button></a>
     </div>
+   </div>
 </body>
 </html>
