@@ -4,10 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Type of cyberattacks</title>
+    <style>
+         body,html{
+            /* overflow-y: hidden; */
+         }
+        .navbar{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 25%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+        li a {
+              display: block;
+              color: #000;
+              padding: 8px 16px;
+              text-decoration: none;
+        }
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <div style="display: flex; justify-content: center; align-items: center;">
-        <h1>Type of cyberattacks</h1>
+    <ul class="navbar">
+        <li><a href="About Cyberspace.html" >About Cyber Space</a></li>
+        <li><a href="What is cyber security.html" >What is cyber Security</a></li>
+        <li><a href="Type of cyberattacks.html" class="active">Types Of cyber Attacks</a></li>
+        <li><a href="Recently reported Attacks.html">Recently reported Attacks</a></li>
+        <li><a href="osi model.html" >OSI Model</a></li>
+        <li><a href="darkweb.html">Dark Web</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <h1>Type of cyberattacks</h1>
+        </div>
+        <div style="padding-left: 50px; padding-right: 50px; font-size: 20px;">
+            <p><b>Cyberattacks</b> are malicious attempts to exploit vulnerabilities in systems, networks, or devices. These attacks aim to disrupt, damage, steal, or gain unauthorized access to data and systems. Below are some common types of cyberattacks:</p>
+            <h3>1. Malware Attacks</h3>
+            <p>Malware (malicious software) is designed to harm or exploit devices, networks, or systems.</p>
+            <ul>
+                <li><b>Viruses:</b> Attach to files and spread to other systems.</li>
+                <li><b>Worms:</b> Self-replicating programs that spread across networks.</li>
+                <li><b>Ransomware:</b> Locks or encrypts data, demanding payment to restore access.</li>
+                <li><b>Spyware:</b> Collects user information without consent.</li>
+                <li><b>Trojans:</b> Masquerade as legitimate software but perform malicious actions.</li>
+            </ul>
+            <h3>2. Phishing</h3>
+            <p>Phishing involves tricking individuals into revealing sensitive information by posing as a trustworthy entity.</p>
+            <ul>
+                <li>Email Phishing: Fraudulent emails containing malicious links or attachments.</li>
+                <li>Spear Phishing: Targeted phishing tailored to a specific individual or organization.</li>
+                <li>Smishing and Vishing: Phishing via SMS (smishing) or voice calls (vishing).</li>
+            </ul>
+            <h3>3. Man-in-the-Middle (MitM) Attacks</h3>
+            <p>An attacker intercepts communication between two parties to steal or manipulate data.</p>
+            <ul>
+                <li>Eavesdropping on encrypted connections.</li>
+                <li>Spoofing Wi-Fi networks to steal user credentials.</li>
+            </ul>
+            
+        </div>
+        <div style="display: flex; justify-content: center; gap: 10px;">
+            <a href="What is cyber security.html"><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Previous Topic</button></a>
+            <a href="../index.html"><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Home</button></a>
+            <a href="Recently reported Attacks.html"><button style="width: 100px; height: 30px; border-radius: 5px; border: none; background-color: green; color: white; ">Next Topic</button></a>
+        </div>
+        
+        
     </div>
 </body>
 </html>
